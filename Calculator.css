@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #38ef7d, #11998e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer{
+    width: 100%;
+    max-width: 320px;
+    min-height: 555px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#inputBox{
+    flex: 1;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+#inputBox>p{
+    flex: 1;
+    text-align: end;
+    padding-right: 0.5em;
+    padding-top: 0.8em;
+    font-size: 2em;
+    color: #f5f5f5;
+}
+
+#outputBox{
+    flex: 1;
+    display: flex;
+}
+
+#outputBox>p{
+    flex: 1;
+    text-align: end;
+    padding-right: 0.5em;
+    padding-top: 0.8em;
+    font-size: 2em;
+    color: #f5f5f5;
+}
+
+#buttonContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #5c5959;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+#clear{
+    background-color: #25ff25;
+}
+
+#clearEnd{
+    background-color: #dd9104;
+}
+
+#percent{
+    background-color: #afaf10;
+}
+
+#divide{
+    background-color: #11998e;
+}
+
+#multiply{
+    background-color:#ffc42e
+}
+
+#subtraction{
+    background-color: #ff6347;
+}
+
+#addition{
+    background-color: #663399;
+}
+
+#equal{
+    background-color:#cd853f;
+}
